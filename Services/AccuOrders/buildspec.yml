@@ -19,8 +19,8 @@ phases:
       # - command
   build:
     commands:
-       - dotnet restore Services\AccuBatch\AccuBatch.csproj
-       - dotnet build Services\AccuBatch\AccuBatch.csproj
+       - dotnet restore Services\AccuOrders\AccuOrders.csproj
+       - dotnet build Services\AccuOrders\AccuOrders.csproj
   #post_build:
     #commands:
       # - command
